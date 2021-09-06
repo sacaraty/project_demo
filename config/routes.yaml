@@ -10,3 +10,6 @@ homepage:
     defaults:
         template: default/homepage.html.twig
         _locale: '%locale%'
+    app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\LuckyController::number
